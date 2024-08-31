@@ -53,7 +53,6 @@ You can  simply use pip to install the latest version of pyresearch.
 | **notebook** | **open in collab ** | **Blog materials** | **repository / paper** |
 |:------------:|:-------------------------------------------------:|:---------------------------:|:----------------------:|
 | [Use Grounded SAM 2 to Auto Label Images](https://github.com/pyresearch/notebooks/blob/main/notebook/How%20to%20grounded-sam-2-auto-label.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/grounded_sam_2_auto_label.ipynb) |   
-
-| [Employee Monitoring](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) | [![Pyresearch]()](https://pyresearch.org/how-object-detection-is-shaping-the-future-of-employee-monitoring/)
+| [Employee Monitoring](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) 
 
 
