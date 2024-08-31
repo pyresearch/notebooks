@@ -50,6 +50,11 @@ You can  simply use pip to install the latest version of pyresearch.
    HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
 -->
 ## 🚀 model tutorials ( notebooks)
-| **notebook** | **open in colab / Kaggle** | **complementary materials** | **repository / paper** |
+| **notebook** | **open in collab ** | **Blog materials** | **repository / paper** |
 |:------------:|:-------------------------------------------------:|:---------------------------:|:----------------------:|
 | [Use Grounded SAM 2 to Auto Label Images](https://github.com/pyresearch/notebooks/blob/main/notebook/How%20to%20grounded-sam-2-auto-label.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/grounded_sam_2_auto_label.ipynb) 
+
+|:------------:|:-------------------------------------------------:|:---------------------------:|:----------------------:|
+| [Object Detection is Shaping the Future of Employee Monitoring](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) 
+
+
