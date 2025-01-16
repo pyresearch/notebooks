@@ -61,6 +61,7 @@ You can  simply use pip to install the latest version of pyresearch.
 | [Logistics Computer Vision Project Train dataset yolov10](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/yolov10_custom_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/yolov10_custom_dataset.ipynb) |
 | [How-to-Train-a-Custom-Object-Detector-with-Detectron2-A-Computer-Vision-Tutorial](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/detectron2.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/detectron2.ipynb) |
 | [Image Classification with DINOv2](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/dinov2_classification.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/dinov2_classification.ipynb) |
+| [Lightweight_Vision_Library_for_Object_Detection_&_Segmentation](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Lightweight_Vision_Library_for_Object_Detection_%26_Segmentation.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Lightweight_Vision_Library_for_Object_Detection_%26_Segmentation.ipynb) |
 
 
 
