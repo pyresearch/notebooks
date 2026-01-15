@@ -1,79 +1,245 @@
 <div align="center">
-  <p>
-    <a align="center" href="https://github.com/pyresearch/notebooks" target="_blank">
-      <img
-        width="850"
-        src="https://github.com/user-attachments/assets/b4fcf097-11d5-400c-bd32-69a05c80768f"
-      >
-    </a>
+  <a href="https://github.com/pyresearch/notebooks" target="_blank">
+    <img 
+      src="https://github.com/user-attachments/assets/b4fcf097-11d5-400c-bd32-69a05c80768f" 
+      alt="PyResearch Banner" 
+      width="880"
+      style="border-radius:16px; box-shadow:0 12px 40px rgba(0,0,0,0.5); margin:32px 0;"
+    />
+  </a>
+
+  <h1 style="
+    font-size: 3.6em;
+    font-weight: 900;
+    background: linear-gradient(90deg, #c084fc, #a78bfa, #7dd3fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 24px 0 12px;
+    letter-spacing: -1px;
+  ">
+    PyResearch
+  </h1>
+
+  <p style="color:#bbbbff; font-size:1.4em; max-width:720px; margin:0 auto 40px; line-height:1.6;">
+    State-of-the-Art Computer Vision Notebooks & Tutorials
   </p>
-  <br>
-</div>
 
-
-## Installation
-You can  simply use pip to install the latest version of pyresearch.
-
-## <div align="center">`pip install pyresearch`</div>
-
-
-
-<div align="center">
-    <a href="https://github.com/pyresearch/pyresearch" style="text-decoration:none;">
-      <img src="https://user-images.githubusercontent.com/34125851/226594737-c21e2dda-9cc6-42ef-b4e7-a685fea4a21d.png" width="2%" alt="" /></a>
-    <img src="https://user-images.githubusercontent.com/34125851/226595799-160b0da3-c9e0-4562-8544-5f20460f7cc9.png" width="2%" alt="" />
-      <a href="https://www.linkedin.com/company/pyresearch/" style="text-decoration:none;">
-      <img src="https://user-images.githubusercontent.com/34125851/226596446-746ffdd0-a47e-4452-84e3-bf11ec2aa26a.png" width="2%" alt="" /></a>
-    <img src="https://user-images.githubusercontent.com/34125851/226595799-160b0da3-c9e0-4562-8544-5f20460f7cc9.png" width="2%" alt="" />
-    <a href="https://twitter.com/Noorkhokhar10" style="text-decoration:none;">
-      <img src="https://user-images.githubusercontent.com/34125851/226599162-9b11194e-4998-440a-ba94-c8a5e1cdc676.png" width="2%" alt="" /></a>
-    <img src="https://user-images.githubusercontent.com/34125851/226595799-160b0da3-c9e0-4562-8544-5f20460f7cc9.png" width="2%" alt="" />    
-    <a href="https://www.youtube.com/@Pyresearch" style="text-decoration:none;">
-      <img src="https://user-images.githubusercontent.com/34125851/226599904-7d5cc5c0-89d2-4d1e-891e-19bee1951744.png" width="2%" alt="" /></a>
-    <img src="https://user-images.githubusercontent.com/34125851/226595799-160b0da3-c9e0-4562-8544-5f20460f7cc9.png" width="2%" alt="" />
-    <a href="https://www.facebook.com/Pyresearch" style="text-decoration:none;">
-      <img src="https://user-images.githubusercontent.com/34125851/226600380-a87a9142-e8e0-4ec9-bf2c-dd6e9da2f05a.png" width="2%" alt="" /></a>
-    <img src="https://user-images.githubusercontent.com/34125851/226595799-160b0da3-c9e0-4562-8544-5f20460f7cc9.png" width="2%" alt="" />
-    <a href="https://www.instagram.com/pyresearch/" style="text-decoration:none;">  
-      <img src="https://user-images.githubusercontent.com/34125851/226601355-ffe0b597-9840-4e10-bbef-43d6c74b5a9e.png" width="2%" alt="" /></a>      
+  <!-- Social Links - Modern Shields -->
+  <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap; margin:40px 0;">
+    <a href="https://github.com/pyresearch/pyresearch" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="https://www.youtube.com/@Pyresearch" target="_blank">
+      <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+    </a>
+    <a href="https://www.linkedin.com/company/pyresearch/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="https://twitter.com/Noorkhokhar10" target="_blank">
+      <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+    </a>
+    <a href="https://www.instagram.com/pyresearch/" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    </a>
+    <a href="https://www.facebook.com/Pyresearch" target="_blank">
+      <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+    </a>
   </div>
 
+  <!-- Installation -->
+  <div style="margin:60px 0 80px;">
+    <h2 style="margin-bottom:24px; font-size:2.2em; font-weight:700; color:#e0e0ff;">Installation</h2>
+    <p style="font-size:1.25em; color:#cccccc; margin-bottom:28px;">
+      Install the latest version of <strong>pyresearch</strong> using pip:
+    </p>
+    <pre style="
+      background: linear-gradient(135deg, #1a0033, #2a004f);
+      padding: 24px 48px;
+      border-radius: 16px;
+      border: 1px solid rgba(168,85,247,0.45);
+      display: inline-block;
+      font-size: 1.4em;
+      box-shadow: 0 12px 48px rgba(138,43,226,0.35);
+      font-family: 'Courier New', monospace;
+    ">
+<span style="color:#ff79c6; font-weight:bold;">pip install</span> <span style="color:#50fa7b; font-weight:bold;">pyresearch</span>
+    </pre>
+  </div>
 
+  <hr style="border:none; height:2px; background:linear-gradient(to right, transparent, #8a2be2, #00d4ff, #8a2be2, transparent); margin:60px 0;" />
 
-<hr>
+  <!-- Notebooks Table -->
+  <h2 style="font-size:2.6em; margin:32px 0 40px; color:#e0e0ff;">🚀 Model Tutorials (Notebooks)</h2>
 
+  <table align="center">
+    <thead>
+      <tr>
+        <th><strong>Notebook</strong></th>
+        <th><strong>Open in Colab</strong></th>
+        <th><strong>YouTube Video</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Train YOLO26 Object Detection on Custom Dataset</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolo26_object_detection_on_custom_dataset.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/watch?v=dO8k5rgXG0M&t=7s">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Train RF-DETR Object Detection Model</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/how_to_finetune_rf_detr_on_detection_dataset.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/watch?v=dO8k5rgXG0M&t=7s">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Train YOLOv12 Object Detection Model</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolov12_object_detection.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/watch?v=dO8k5rgXG0M&t=7s">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>YOLO11 Pose Estimation on Custom Dataset</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Yolo11_Pose%20Estimation_custom_dataset.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>YOLO11 Custom Instance Segmentation</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolo11_instance_segmentation_on_custom_dataset.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>YOLO11 Object Detection Custom Dataset</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/yolo11_object_detection_custom_dataset.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Use Grounded SAM 2 to Auto Label Images</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/grounded_sam_2_auto_label.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Employee Monitoring Using Object Detection</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Train YOLOv9 Object Detection on Custom Dataset</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolov9_object_detection_on_custom_dataset.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Logistics Computer Vision Project (YOLOv10)</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/yolov10_custom_dataset.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Custom Object Detection with Detectron2</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/detectron2.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Image Classification with DINOv2</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/dinov2_classification.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Lightweight Vision Library for Detection & Segmentation</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Lightweight_Vision_Library_for_Object_Detection_%26_Segmentation.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td>RT-DETR Object Detection (Transformers)</td>
+        <td align="center">
+          <a href="https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_rt_detr_on_custom_dataset_with_transformers.ipynb">
+            <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://www.youtube.com/@Pyresearch/videos">Watch Video</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
+  <br><br>
 
---- AUTOGENERATED-NOTEBOOKS-TABLE -->
-<!---
-   WARNING: DO NOT EDIT THIS TABLE MANUALLY. IT IS AUTOMATICALLY GENERATED.
-   HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
--->
-
-
-Here's the updated table with the YouTube link added for each notebook:
-
-## 🚀 Model Tutorials (Notebooks)
-
-| **Notebook** | Open in Colab  | **YouTube Video** |
-|:------------:|:-------------------------------------------------:|:----------------------:|
-
-[train-yolo26-object-detection-on-custom-dataset](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolo26_object_detection_on_custom_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolo26_object_detection_on_custom_dataset.ipynb) | [Watch Video](https://www.youtube.com/watch?v=dO8k5rgXG0M&t=7s) | [Train-RF-DETR-object-detection-model](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/how_to_finetune_rf_detr_on_detection_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/how_to_finetune_rf_detr_on_detection_dataset.ipynb) | [Watch Video](https://www.youtube.com/watch?v=dO8k5rgXG0M&t=7s) |
-| [Train-yolov12-object-detection-model](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolov12_object_detection.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolov12_object_detection.ipynb) | [Watch Video](https://www.youtube.com/watch?v=dO8k5rgXG0M&t=7s) |
-| [Yolo11_Pose Estimation_custom_dataset](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Yolo11_Pose%20Estimation_custom_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Yolo11_Pose%20Estimation_custom_dataset.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [YOLO11 custom Instance_segmentation Detection](https://github.com/pyresearch/notebooks/blob/main/notebook/train_yolo11_instance_segmentation_on_custom_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolo11_instance_segmentation_on_custom_dataset.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [YOLO11 Object Detection](https://github.com/pyresearch/notebooks/blob/main/notebook/yolo11_object_detection_custom_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/yolo11_object_detection_custom_dataset.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [Use Grounded SAM 2 to Auto Label Images](https://github.com/pyresearch/notebooks/blob/main/notebook/How%20to%20grounded-sam-2-auto-label.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/grounded_sam_2_auto_label.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [Employee Monitoring](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Employee%20Monitoring%20Using%20Object%20Detection.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [train_yolov9_object_detection_on_custom_dataset](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolov9_object_detection_on_custom_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_yolov9_object_detection_on_custom_dataset.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [Logistics Computer Vision Project Train dataset yolov10](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/yolov10_custom_dataset.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/yolov10_custom_dataset.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [How-to-Train-a-Custom-Object-Detector-with-Detectron2-A-Computer-Vision-Tutorial](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/detectron2.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/detectron2.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [Image Classification with DINOv2](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/dinov2_classification.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/dinov2_classification.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [Lightweight_Vision_Library_for_Object_Detection_&_Segmentation](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Lightweight_Vision_Library_for_Object_Detection_%26_Segmentation.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/Lightweight_Vision_Library_for_Object_Detection_%26_Segmentation.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-| [RT-DETR Object Detection](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_rt_detr_on_custom_dataset_with_transformers.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pyresearch/notebooks/blob/main/notebook/train_rt_detr_on_custom_dataset_with_transformers.ipynb) | [Watch Video](https://www.youtube.com/@Pyresearch/videos) |
-
-This should now include the YouTube link for PyResearch under every notebook entry. Let me know if you need any more modifications! 🚀
-
-
-
-
+  <p align="center" style="font-size:1.3em; color:#bbbbff;">
+    Happy Training! 🚀
+  </p>
+</div>
